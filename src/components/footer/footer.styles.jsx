@@ -14,6 +14,7 @@ export const FooterContainer = styled.div`
   height: auto;
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   //any child inside this component is separeted with as much space as possible
   justify-content: space-between;
   padding: 0.9375rem 0;
@@ -24,22 +25,26 @@ export const FooterContainer = styled.div`
   color: white;
 
   p {
-    padding-left:130px;
+    padding-left: 70px;
     margin: auto; //center the Copyright text
   }
-  
+
 `;
 
-export const LogoContainer = styled(Link)`
-display: flex;
-font-family: Gotham;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 32px;
-/* or 229% */
+export const LogoContainer = styled.div`
+  display: flex;
+  font-family: Gotham;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 32px;
+  color: #ffffff;
 
-color: #FFFFFF;
+  @media screen and (max-width: 700px){
+    padding: auto;
+    margin: auto;
+  }
+
 `;
 
 export const LogoBody = styled(Logo)`
@@ -55,6 +60,10 @@ export const OptionsContainer = styled.div`
   padding-right: 50px;
   //flex-end means the most right side of the component
   justify-content: flex-end;
+  
+  @media screen and (max-width: 700px){
+    display: contents;
+  }
 `;
 
 //or we can create an unique style and use the key word "as=TypeOfComponent"
@@ -62,18 +71,18 @@ export const OptionsContainer = styled.div`
 export const OptionLink = styled(Link)`
   //a little padding to leave a space between the options
   padding: 10px 15px;
-
   cursor: pointer;
-  
   font-family: Gotham;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 17px;
   /* identical to box height */
-
   text-align: right;
   text-decoration-line: underline;
-
   color: #ffffff;
+
+  @media screen and (max-width: 700px){
+    margin: auto;
+  }
 `;

@@ -5,15 +5,15 @@ import {
   LogoContainer,
   OptionsContainer,
   OptionLink,
-  LogoBody
+  LogoBody,
 } from "./footer.styles";
 
 const Footer = () => (
   //creating a div to contain the logo, and another sub div options with shop and contact
   <FooterContainer>
-    <LogoContainer to="/">
+    <LogoContainer>
       <p>Copyright © 2021 Angel Pharma</p>
-      <LogoBody/>
+      <LogoBody />
     </LogoContainer>
 
     <OptionsContainer>
