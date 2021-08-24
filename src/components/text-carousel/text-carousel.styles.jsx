@@ -2,9 +2,7 @@ import styled from "styled-components";
 
 export const TextCarouselContainer = styled.div`
   display: flex;
-  position: absolute;
-  left: 9.03%;
-  top: 380px;
+  position: relative;
   flex-direction: column;
   align-items: flex-start;
   text-align: justify;
@@ -19,12 +17,10 @@ export const TextCarouselP = styled.p`
 
   color: #ffffff;
 
-  @media screen and (max-width: 700px) {
-    //disapears if screen is smaller than 700px
-    text-align: start;
+  @media screen and (max-width: 760px) {
+    width: 80%;
     font-size: 1.5rem;
     line-height: 140%;
-    top: 30%;
   }
 `;
 
@@ -42,22 +38,25 @@ export const SpanText = styled.span`
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  z-index: 9; //place it over all the other elements otherwise it would not be possible to click on it
 
-  ::before { //creates the 3 dots options for the Text Carousel
+  ::before {
+    //creates the 3 dots options for the Text Carousel
     content: "";
     height: 6px;
     width: 6px;
     //validates if actived text is the same as the one being displayed. If it is true, display color, otherwise set it to transparent
-    background-color: ${({active,data}) => active==data ? "#F6921E" : "transparent"};
+    background-color: ${({ active, data }) =>
+    //eslint-disable-next-line
+      active == data ? "#F6921E" : "transparent"};
     border-radius: 50%;
     border: 1px solid;
-    border-color: #F6921E;
+    border-color: #f6921e;
     transition: background-color 0.3s ease;
   }
 
-    :hover::before{ //changes the color of the 3 dots when hover it
-        background-color: #F6921E;
-    }
-
-
+  :hover::before {
+    //changes the color of the 3 dots when hover it
+    background-color: #f6921e;
+  }
 `;

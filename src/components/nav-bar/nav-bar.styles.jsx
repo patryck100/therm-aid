@@ -73,9 +73,15 @@ export const OptionLink = styled(Link)`
   padding: 0 1rem;
   cursor: pointer;
   color: #9D2C29;
-
-  &.active {
+  
+  &:active {
     border-bottom: 3px solid #9D2C29;
+  }
+
+  &:hover {
+    color: #9d2c29;
+    transform: scale(1.1);
+    transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
   }
 `;
 

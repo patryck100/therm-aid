@@ -40,7 +40,7 @@ export const LogoContainer = styled.div`
   line-height: 32px;
   color: #ffffff;
 
-  @media screen and (max-width: 700px){
+  @media screen and (max-width: 760px){
     padding: auto;
     margin: auto;
   }
@@ -61,7 +61,7 @@ export const OptionsContainer = styled.div`
   //flex-end means the most right side of the component
   justify-content: flex-end;
   
-  @media screen and (max-width: 700px){
+  @media screen and (max-width: 760px){
     display: contents;
   }
 `;
@@ -82,7 +82,7 @@ export const OptionLink = styled(Link)`
   text-decoration-line: underline;
   color: #ffffff;
 
-  @media screen and (max-width: 700px){
+  @media screen and (max-width: 760px){
     margin: auto;
   }
 `;

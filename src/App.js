@@ -3,7 +3,8 @@ import NavBar from "./components/nav-bar/nav-bar.components";
 import Footer from "./components/footer/footer.components";
 import Banner from "./components/banner/banner.components";
 import "./App.css";
-import SideBar from "./components/SideBar/SideBar.components";
+import SideBar from "./components/MenuBar/MenuBar.components";
+import { HowItWords } from "./components/howItWorkds/howItWorkds.components";
 
 
 
@@ -19,6 +20,7 @@ const App = () => {
         <SideBar isOpen={isOpen} toggle={toggle}/>
         <NavBar toggle={toggle}/>
         <Banner/>
+        <HowItWords/>
         <Footer/>
       </div>
     );
