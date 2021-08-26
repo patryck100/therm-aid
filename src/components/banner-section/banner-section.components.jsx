@@ -8,7 +8,7 @@ import {
   TitleLogo,
   Title,
   VisualImg,
-} from "./banner.styles";
+} from "./banner-section.styles";
 
 const Banner = () => {
   return (

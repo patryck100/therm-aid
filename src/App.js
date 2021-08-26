@@ -1,10 +1,10 @@
 import React, {useState} from "react";
 import NavBar from "./components/nav-bar/nav-bar.components";
 import Footer from "./components/footer/footer.components";
-import Banner from "./components/banner/banner.components";
+import Banner from "./components/banner-section/banner-section.components";
 import "./App.css";
 import SideBar from "./components/MenuBar/MenuBar.components";
-import { HowItWords } from "./components/howItWorkds/howItWorkds.components";
+import { HowItWorks } from "./components/howItWorks-section/howItWorks-section.components";
 
 
 
@@ -20,7 +20,7 @@ const App = () => {
         <SideBar isOpen={isOpen} toggle={toggle}/>
         <NavBar toggle={toggle}/>
         <Banner/>
-        <HowItWords/>
+        <HowItWorks/>
         <Footer/>
       </div>
     );

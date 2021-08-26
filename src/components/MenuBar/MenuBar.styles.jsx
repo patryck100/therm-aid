@@ -10,16 +10,15 @@ export const MenuBarContainer = styled.aside`
   width: 100%;
   height: 100%;
   background: #f2f2f2;
-  //avoids clickable bugs on the menu bar by only displaying the content and options if "isOpen" is active
-  display: ${({ isOpen }) => (isOpen ? "grid" : "none")};
   align-items: center;
+  display: grid;
   top: 0;
   left: 0;
   transition: 0.3s ease-in-out; //brings the menu bar slowly from top to bottom
   //unhiddes the sideBar menu from top to bottom on click
   opacity: ${({ isOpen }) =>
     isOpen ? "100%" : "0"}; //set visibility to true when clicked
-  top: ${({ isOpen }) => (isOpen ? "0" : "-100%")}; //makes the menu assessible
+  top: ${({ isOpen }) => (isOpen ? "0" : "-150%")}; //makes the menu assessible
 `;
 
 export const NavBar = styled.div`
