@@ -54,6 +54,7 @@ export const CloseIcon = styled(closeIcon)`
 export const MenuBarWrapper = styled.div`
   background: #f2f2f2;
   height: 100vh;
+  padding-right: 40px;
 `;
 
 export const MenuBarOptions = styled.ul`
