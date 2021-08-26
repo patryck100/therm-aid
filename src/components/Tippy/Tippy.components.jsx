@@ -19,66 +19,65 @@ import {
   Bottom,
   RedButtonItem,
   RedButtonIcon,
+  TippyContainer
 } from "./Tippy.styles";
 
 export const ToolTip = () => {
   return (
     <RedButtonContainer>
       <Top>
-        <Tippy
+        <TippyContainer
           content={<PainRelief style={{ width: "335px" }} />}
-          maxWidth="0px"
           arrow={false}
+          placement="right"
           boundary="viewport"
         >
           <RedButtonIcon />
-        </Tippy>
+        </TippyContainer>
       </Top>
 
       <RedButtonItem>
         <Left>
-          <Tippy
+          <TippyContainer
             content={<LongLastingHeat style={{ width: "335px" }} />}
-            maxWidth="0px"
             arrow={false}
             placement="left"
             boundary="viewport"
           >
             <RedButtonIcon />
-          </Tippy>
+          </TippyContainer>
         </Left>
         <Right>
-          <Tippy
+          <TippyContainer
             content={<IncreaseBloodCirculation style={{ width: "335px" }} />}
-            maxWidth="0px"
             arrow={false}
             placement="top-start"
             boundary="viewport"
           >
             <RedButtonIcon />
-          </Tippy>
+          </TippyContainer>
         </Right>
       </RedButtonItem>
 
       <Middle>
-        <Tippy
+        <TippyContainer
           content={<HeatCell style={{ width: "335px" }} />}
-          maxWidth="0px"
           arrow={false}
+          placement="left"
           boundary="viewport"
         >
           <RedButtonIcon />
-        </Tippy>
+        </TippyContainer>
       </Middle>
       <Bottom>
-        <Tippy
+        <TippyContainer
           content={<MusclesRelaxing style={{ width: "335px" }} />}
-          maxWidth="0px"
           arrow={false}
+          placement="right"
           boundary="viewport"
         >
           <RedButtonIcon />
-        </Tippy>
+        </TippyContainer>
       </Bottom>
     </RedButtonContainer>
   );

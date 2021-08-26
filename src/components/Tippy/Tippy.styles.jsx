@@ -1,5 +1,13 @@
 import styled from "styled-components";
 import { ReactComponent as RedButton } from "../../assets/red-button.svg";
+import Tippy from "@tippy.js/react";
+import "tippy.js/dist/tippy.css";
+
+export const TippyContainer = styled(Tippy)`
+  background: transparent;
+  width: 100%;
+  height: auto;
+`;
 
 export const RedButtonIcon = styled(RedButton)`
   position: absolute;
