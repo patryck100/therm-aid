@@ -1,5 +1,7 @@
 import styled from "styled-components";
 import { ReactComponent as RedButton } from "../../assets/red-button.svg";
+
+//ToolTip component from "https://github.com/atomiks/tippyjs"
 import Tippy from "@tippy.js/react";
 import "tippy.js/dist/tippy.css";
 

@@ -6,9 +6,7 @@ import { ReactComponent as LongLastingHeat } from "../../assets/ThermAid-Options
 import { ReactComponent as MusclesRelaxing } from "../../assets/ThermAid-Options-SVG/Muscles-Relaxing.svg";
 import { ReactComponent as PainRelief } from "../../assets/ThermAid-Options-SVG/Pain-Relief.svg";
 
-//ToolTip component from "https://github.com/atomiks/tippyjs"
-import Tippy from "@tippy.js/react";
-import "tippy.js/dist/tippy.css";
+
 
 import {
   RedButtonContainer,
