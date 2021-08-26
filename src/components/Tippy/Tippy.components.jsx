@@ -51,7 +51,7 @@ export const ToolTip = () => {
           <TippyContainer
             content={<IncreaseBloodCirculation style={{ width: "335px" }} />}
             arrow={false}
-            placement="top-start"
+            placement="right"
             boundary="viewport"
           >
             <RedButtonIcon />
