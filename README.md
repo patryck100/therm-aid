@@ -1,5 +1,4 @@
-Therm Aid was developed based on a project designed on Figma.
-The project is divided into 4 reusable and responsive components:
+# Therm Aid was developed based on a project designed on Figma. The project is divided into 4 reusable and responsive components:
 
 # Header component (Navbar)
 * Sticky header follows the screen on scrol up and down
