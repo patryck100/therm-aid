@@ -1,3 +1,26 @@
+Therm Aid was developed based on a project designed on Figma.
+The project is divided into 4 reusable and responsive components:
+
+# Header component (Navbar)
+* Sticky header follows the screen on scrol up and down
+* Responsive, adapts to the size of screen
+* Mobile friendly, a menu bar shows up on screens up to 760px
+
+#Banner component (Main section)
+* Responsive banner adapts to the size of the screen
+* Includes a text carousel that displays different text on click
+
+#How it works component (Section 2)
+* Responsive background adapts to the size of the screen
+* Use of Tippy tool allows the display of images when hovering items on the section
+* Mobile friendly, the tips are displayed one under another on screens up to 760px
+
+#Footer component
+* Responsive, adapts to the size of screen
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
