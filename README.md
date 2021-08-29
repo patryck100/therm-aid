@@ -11,8 +11,8 @@
 
 # How it works component (Section 2)
 * Responsive background adapts to the size of the screen
-* Use of Tippy tool allows the display of images when hovering items on the section
-* Mobile friendly, the tips are displayed one under another on screens up to 760px
+* Tippy tool allows displaying of images by hovering items on section 2
+* Mobile friendly, the tips are displayed one under another on screens up to 760px, instead of hovering
 
 # Footer component
 * Responsive, adapts to the size of screen
