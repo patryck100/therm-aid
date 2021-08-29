@@ -6,16 +6,16 @@ The project is divided into 4 reusable and responsive components:
 * Responsive, adapts to the size of screen
 * Mobile friendly, a menu bar shows up on screens up to 760px
 
-#Banner component (Main section)
+# Banner component (Main section)
 * Responsive banner adapts to the size of the screen
 * Includes a text carousel that displays different text on click
 
-#How it works component (Section 2)
+# How it works component (Section 2)
 * Responsive background adapts to the size of the screen
 * Use of Tippy tool allows the display of images when hovering items on the section
 * Mobile friendly, the tips are displayed one under another on screens up to 760px
 
-#Footer component
+# Footer component
 * Responsive, adapts to the size of screen
 
 
